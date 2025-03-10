@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "next dev",
     "debug": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
-    "start": "next start",
+    "preview": "next build",
     "lint": "next lint"
   },
   "dependencies": {
