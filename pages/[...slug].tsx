@@ -184,6 +184,5 @@ export async function getStaticProps(
       resource,
       additionalContent,
     },
-    revalidate: 10,
   }
 }
