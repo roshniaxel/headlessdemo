@@ -82,6 +82,5 @@ export async function getStaticProps(
       banner,
       recipes,
     },
-    revalidate: 10,
   }
 }

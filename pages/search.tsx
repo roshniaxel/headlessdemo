@@ -88,6 +88,5 @@ export async function getStaticProps(
     props: {
       ...(await getGlobalElements(context)),
     },
-    revalidate: 10,
   }
 }
